@@ -1,0 +1,63 @@
+Datatypes
+
+29 June 2021
+12:26
+
+Types of Variable
+
+Rscript
+
+#integer
+x <- 2L
+typeof(x)
+
+#Double
+y <- 2.5
+typeof(y)
+
+#Complex
+z <- 3+2i
+typeof(z)
+
+#Character
+a <- "V"
+typeof(a)
+
+#Logical
+q <- TRUE
+typeof(q)
+
+
+Data Type	Example	Verify
+Logical	TRUE, FALSE	Live Demo
+		v <- TRUE 
+print(class(v))
+		it produces the following result −
+		[1] "logical" 
+Numeric	12.3, 5, 999	Live Demo
+		v <- 23.5
+print(class(v))
+		it produces the following result −
+		[1] "numeric"
+Integer	2L, 34L, 0L	Live Demo
+		v <- 2L
+print(class(v))
+		it produces the following result −
+		[1] "integer"
+Complex	3 + 2i	Live Demo
+		v <- 2+5i
+print(class(v))
+		it produces the following result −
+		[1] "complex"
+Character	'a' , '"good", "TRUE", '23.4'	Live Demo
+		v <- "TRUE"
+print(class(v))
+		it produces the following result −
+		[1] "character"
+Raw	"Hello" is stored as 48 65 6c 6c 6f	Live Demo
+		v <- charToRaw("Hello")
+print(class(v))
+		it produces the following result −
+		[1] "raw" 
+
+
