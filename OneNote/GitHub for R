@@ -1,0 +1,16 @@
+GitHub for R
+
+29 June 2021
+20:01
+
+	1. Download GitHub Desktop
+	2. Create New Project
+	3. Choose version control => GitHub
+	4. Paste the Repo URL and point to the project Folder
+	5. Go to Tools in Rstudio => version control => commit
+	6. Select the R files to push and add comment
+	7. Click on Commit
+	8. Go to Tools => version control => Push branch
+	View in Github to verify
+	
+	
