@@ -1,0 +1,12 @@
+#Filtering using which()
+head(fin)
+fin[fin$Revenue == 9746272,]
+#ID     Name Industry Inception Employees State       City Revenue Expenses  Profit Growth
+#3       3 Greenfax   Retail      2012        NA    SC Greenville 9746272  1044375 8701897     16
+#NA   <NA>     <NA>     <NA>      <NA>        NA  <NA>       <NA>      NA       NA      NA     NA
+#NA.1 <NA>     <NA>     <NA>      <NA>        NA  <NA>       <NA>      NA       NA      NA     NA
+
+which(fin$Revenue == 9746272)
+#> which(fin$Revenue == 9746272)
+#[1] 3
+fin[which(fin$Revenue == 9746272),]
