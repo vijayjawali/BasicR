@@ -1,0 +1,15 @@
+Matrix Operation 
+
+30 June 2021
+10:45
+
+Games
+rownames(Games)
+colnames(Games)
+
+FieldGoals
+
+FieldGoalsPerGame <- round(FieldGoals / Games, 1)
+FieldGoalsPerGame
+
+round(MinutesPlayed / Games)
