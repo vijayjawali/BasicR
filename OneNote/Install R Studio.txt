@@ -1,0 +1,21 @@
+Install R Studio
+
+29 June 2021
+09:51
+
+	1. Go to https://cran.r-project.org/
+	2. Select Download R for Windows
+	3. Install it
+	RSTUDIO installation
+	4. Go to https://www.rstudio.com/
+	5. Go to products https://www.rstudio.com/products/rstudio/
+	6. Download Rstudio Desktop
+	
+	
+	
+INSTALLATION IN ANACONDA
+	1. Go to Anaconda Navigator
+	2. Click on install Rstudio
+	3. Launch
+To change the Theme Go to Tools => Global options
+	
