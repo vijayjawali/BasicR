@@ -1,0 +1,8 @@
+#Removing Data with missing Records
+fin_backup <- fin
+
+fin[!complete.cases(fin),]
+fin[is.na(fin$Industry),]
+fin[!is.na(fin$Industry),]
+fin <- fin[!is.na(fin$Industry),]
+fin
