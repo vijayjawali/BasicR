@@ -1,7 +1,0 @@
-#Resetting DataFrame Index
-#First way
-rownames(fin) <- 1:nrow(fin)
-rownames(fin)
-#Second way
-rownames(fin) <- NULL
-rownames(fin)

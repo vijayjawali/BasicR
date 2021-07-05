@@ -1,6 +1,0 @@
-	1. Predict with 100% accuracy.
-	2. Leave record as is.
-	3. Remove record entirely.
-	4. Replace with mean or median
-	5. Fill in by exploring correlation and similarities
-	6. Introduce dummy variable for " Missingness"
